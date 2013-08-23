@@ -30,6 +30,14 @@ alias c='clear'
 alias md='open -a Marked'
 alias mate='open -a TextMate'
 
+# SHORTCUTS
+#######################################################
+alias box='cd ~/Dropbox'
+alias drive='cd ~/Google\ Drive'
+alias dl='cd ~/Downloads'
+alias notes='cd ~/Dropbox/notes'
+alias home='cd ~'
+
 # GIT
 #######################################################
 
