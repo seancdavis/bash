@@ -14,9 +14,12 @@ function mkd {
 #######################################################
 
 alias vi=vim
+alias v=vim
 alias h='history'
 alias fh='history | grep $1' #Requires one input
 ft() { echo -n "（╯°□°）╯︵ ┻━┻" | pbcopy; }
+
+alias c='clear'
 
 # alias ztr='tar -czvf $1 $2' #create a tarball
 # alias zls='tar -tzf $1' #ls a tarball
@@ -25,18 +28,22 @@ ft() { echo -n "（╯°□°）╯︵ ┻━┻" | pbcopy; }
 # GIT
 #######################################################
 
-# alias g='git'
-# alias ga="git add"
+alias g='git'
+alias gs='git status'
+alias ga="git add"
+alias ga.="git add ."
 # alias gb='git branch --verbose'
-# alias gc='git commit --verbose'
+alias gc='git commit --verbose -m'
+alias gca='git commit --verbose --all -m'
+alias gush='git push'
+alias gushom='git push origin master'
 # alias gca='git commit --verbose --all'
 # alias gco="git checkout"
-# alias gd='git diff --ignore-space-change'
+alias gd='git diff --ignore-space-change'
 # alias gk='gitk &'
-# alias gull='git pull'
-# alias gm="git merge"
-# alias gush='git push'
-# alias gs="git stash"
+alias gull='git pull'
+alias gm="git merge"
+alias gash="git stash"
 # alias gx="gitx"
 
 alias shlvl="echo $SHLVL"
