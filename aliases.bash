@@ -25,6 +25,11 @@ alias c='clear'
 # alias zls='tar -tzf $1' #ls a tarball
 # alist zun='tar -xzvf $1' #extract a tarball
 
+# APPS
+#######################################################
+alias md='open -a Marked'
+alias mate='open -a TextMate'
+
 # GIT
 #######################################################
 
