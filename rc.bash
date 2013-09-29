@@ -60,7 +60,6 @@ export GIT_MERGE_AUTOEDIT=no #don't open merge conflict messages
 # PATHS
 #######################################################
 
-export RBENV_PATH=./vendor/ruby/bin:$HOME/.rbenv/bin:$HOME/.rbenv/shims
 export NPM_PATH=/usr/local/share/npm/bin
 export PYTHON_PATH=/usr/local/share/python
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
@@ -74,3 +73,5 @@ export PATH=$RBENV_PATH:$SYS_PATH:$NPM_PATH:$PYTHON_PATH:$PATH
 if [ -f ~/.bash/aliases.bash ]; then
    source ~/.bash/aliases.bash
 fi
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
